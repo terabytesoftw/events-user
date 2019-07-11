@@ -6,7 +6,11 @@ build:
           - php-scrutinizer-run
 
 checks:
-    php: true
+    php:
+        excluded_dependencies:
+            - hiqdev/composer-config-plugin
+            - phpunit/phpunit
+            - fzaninotto/faker
 tools:
     php_code_coverage:
         enabled: true
