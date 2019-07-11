@@ -7,7 +7,7 @@
 
 <p align="center">
     <a href="https://packagist.org/packages/terabytesoftw/events-user" target="_blank">
-        <img src="https://poser.pugx.org/terabytesoftw/events-user/v/unstable.svg" alt="Unstable Version">
+        <img src="https://poser.pugx.org/terabytesoftw/events-user/v/unstable" alt="Unstable Version">
     </a>
     <a href="https://travis-ci.org/terabytesoftw/events-user" target="_blank">
         <img src="https://travis-ci.org/terabytesoftw/events-user.svg?branch=master" alt="Build Status">
@@ -196,7 +196,7 @@ $ vendor/bin/codecept run unit --coverage-xml
 
 ### **LICENCE:**
 
-[![License](https://poser.pugx.org/terabytesoftw/events-user/license.svg)](LICENSE.md)
+[![License](https://poser.pugx.org/terabytesoftw/events-user/license)](LICENSE.md)
 [![YiiFramework](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://www.yiiframework.com/)
-[![Total Downloads](https://poser.pugx.org/terabytesoftw/events-user/downloads.svg)](https://packagist.org/packages/terabytesoftw/events-user)
+[![Total Downloads](https://poser.pugx.org/terabytesoftw/events-user/downloads)](https://packagist.org/packages/terabytesoftw/events-user)
 [![StyleCI](https://github.styleci.io/repos/196252989/shield?branch=master)](https://github.styleci.io/repos/196252989)
