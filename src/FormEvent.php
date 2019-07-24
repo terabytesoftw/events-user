@@ -30,6 +30,12 @@ class FormEvent extends Event
     const REGISTER_FAILS = '\terabytesoft\events\user\FormEvent::REGISTER_FAILS';
 
     /**
+     * event is triggered module registration user is disable
+     * triggered with \terabytesoft\events\user\FormEvent
+     **/
+    const REGISTER_MODULE_DISABLE = '\terabytesoft\events\user\FormEvent::REGISTER_MODULE_DISABLE';
+
+    /**
      * event is triggered after creating ResendForm class
      * triggered with \terabytesoft\events\user\FormEvent
      **/
@@ -82,6 +88,12 @@ class FormEvent extends Event
      * triggered with \terabytesoft\events\user\FormEvent
      **/
     const AFTER_REQUEST = '\terabytesoft\events\user\FormEvent::AFTER_REQUEST';
+
+    /**
+     * event is triggered requesting password is module disabled
+     * triggered with \terabytesoft\events\user\FormEvent
+     **/
+    const REQUEST_MODULE_DISABLE = '\terabytesoft\events\user\FormEvent::REQUEST_MODULE_DISABLE';
 
     /**
      * event is triggered fails requesting password reset
